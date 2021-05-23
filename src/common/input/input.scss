@@ -1,0 +1,25 @@
+@import '../../style/_variable';
+
+.input {
+    display: flex;
+    align-items: center;
+
+    .label {
+        color:$secondary;
+        font-size: $normal;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-right: 5px;
+    }
+
+    input {
+        border: 1px solid $light;
+        border-radius: 3px;
+        color: $secondary;
+        font-size: $normal;
+        max-width: 70px;
+        padding: 5px;
+        text-align: right;
+    }
+    
+}

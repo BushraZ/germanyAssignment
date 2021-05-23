@@ -1,0 +1,8 @@
+@import '../../style/_variable';
+
+.chart{
+    border:1px solid rgba($light,0.45);
+    box-shadow: $boxShadow;
+    border-radius: 5px;
+    margin: 0 auto 30px auto;
+}

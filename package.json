@@ -1,0 +1,56 @@
+{
+  "name": "germany-assignment",
+  "version": "1.0.0",
+  "description": "front end assignment EDI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack",
+    "start": "webpack serve",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BushraZ/germanyAssignment.git#germanyassignment"
+  },
+  "author": "Eng Bushra Al Zaareer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BushraZ/germanyAssignment/issues"
+  },
+  "homepage": "https://github.com/BushraZ/germanyAssignment/tree/germanyassignment#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/node": "^7.13.13",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-transform-runtime": "^7.14.3",
+    "@babel/preset-env": "^7.14.1",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "file-loader": "^6.2.0",
+    "gulp": "^4.0.2",
+    "html-webpack-plugin": "^5.3.1",
+    "image-webpack-loader": "^7.0.1",
+    "node-sass": "^5.0.0",
+    "path": "^0.12.7",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "browser-sync": "^2.26.14",
+    "gulp-sass": "^4.1.0",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0",
+    "redux-logic": "^3.0.3",
+    "redux-persist": "^6.0.0",
+    "webpack-stream": "^6.1.2"
+  }
+}

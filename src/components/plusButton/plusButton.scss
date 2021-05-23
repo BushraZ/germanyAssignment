@@ -1,0 +1,18 @@
+@import '../../style/_variable';
+
+.plus{
+    width: 100%;
+
+    &_button{
+        border: 1px solid rgba($light,0.5);
+        background-color: $white;
+        box-shadow: $boxShadow;
+        border-radius: 5px;
+        color:$secondary;
+        cursor: pointer;
+        font-size: $xx-large;
+        height: 40px;   
+        width: 100%;       
+        outline: none;      
+    }
+}

@@ -1,0 +1,67 @@
+[
+    {
+       "id":1,
+       "title":"chanal a",
+       "color":"#864E9C",
+       "disabled":0,
+       "selected":1,
+       "equation":""
+    },
+    {
+       "id":2,
+       "title":"chanal b",
+       "color":"#FFBF00",
+       "disabled":0,
+       "selected":1,
+       "equation":"sint"
+    },
+    {
+       "id":3,
+       "title":"chanal c",
+       "color":"#C70039",
+       "disabled":0,
+       "selected":1,
+       "equation":"cos"
+    },
+    {
+       "id":4,
+       "title":"chanal d",
+       "color":"#000080",
+       "disabled":0,
+       "selected":0,
+       "equation":"sin"
+    },
+    {
+       "id":5,
+       "title":"chanal e",
+       "color":"#F9497C",
+       "disabled":0,
+       "selected":1,
+       "equation":"cost"
+    },
+    {
+      "id":6,
+      "title":"channel f",
+      "color":"#FF5733",
+      "disabled":0,
+      "selected":0,
+      "equation":"tan"
+    },
+    {
+      "id":7,
+      "title":"channel g",
+      "color":"#A4AB16",
+      "disabled":0,
+      "selected":0,
+      "equation":"sec"
+    },
+    {
+      "id":8,
+      "title":"channel h",
+      "color":"#0F894C",
+      "disabled":0,
+      "selected":0,
+      "equation":"csc"
+    }
+ ]
+ 

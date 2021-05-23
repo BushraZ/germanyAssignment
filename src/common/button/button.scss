@@ -1,0 +1,35 @@
+@import '../../style/_variable';
+
+.button{ 
+    align-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;   
+    width:max-content;
+    padding: 5px 7px;
+
+
+    .selected_btn{
+        border: 0;
+        background-color: transparent;
+        color:$white;
+        height: 3px; 
+        text-transform: capitalize;   
+        width:max-content;       
+        outline: none;
+
+       &.disabled{
+            opacity: 0.4;
+            // cursor: none;
+        }       
+    }      
+
+    .close{      
+        background-color: $white; 
+        border-radius: 50%;       
+        border:1px solid $black;       
+        color:$black;
+        font-size: $small;
+        padding: 0 3px;              
+    }
+}

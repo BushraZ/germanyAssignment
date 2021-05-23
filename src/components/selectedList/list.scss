@@ -1,0 +1,27 @@
+@import '../../style/_variable';
+
+.channales{
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+
+    .text{
+        color:$secondary;
+        font-size:$title;        
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-right: 0.5%;
+    }
+
+    .selected_list{
+        border:1px solid rgba($black,0.1);
+        border-radius: 5px;
+        display: flex;
+        padding: 5px;
+        width:1150px;
+
+        & > .button{
+            margin-right: 3px;
+        }
+    }   
+}
