@@ -86,11 +86,15 @@ const Table = () => {
       setRows(temp);
     }
 
+    const handleValue=(name,value)=>{
+      console.log(name,value)
+    }
+
     return (
        <div className="table">
           {
             tableRows.map((element) => (       
-              <Row key={element.id} columns={element} removeRow={removeRow} />
+              <Row key={element.id} columns={element} removeRow={removeRow} handleValue={handleValue} />
             ))
           }
           <PlusButton addRow ={addRow} />  

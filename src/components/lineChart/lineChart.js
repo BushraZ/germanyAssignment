@@ -22,6 +22,8 @@ const LineChart = ({
   const chartWidth = width - padding * 2;
   const chartHeight = height - padding * 2;
 
+  console.log("pppaddding",padding)
+
   const Axis = ({ points }) => (
     <polyline fill="none" stroke="#ccc" strokeWidth=".5" points={points} />
   );
@@ -221,9 +223,30 @@ const LineChart = ({
         ))
       }
       {/* list of sliping period */}
-      <rect x="31" y="31" width="36" height="138" fill="rgb(105,105,105)" style={{opacity:"0.2"}} />
-      <rect x="36" y="31" width="43" height="138" fill="rgb(105,105,105)" style={{opacity:"0.45"}} />
-      <rect x="79" y="31" width="5" height="138" fill="rgb(105,105,105)" style={{opacity:"0.2"}} />      
+      <rect x="31" y="31" width="3.6" height="138" fill="rgb(105,105,105)" style={{opacity:"0.2"}} />
+      <rect x="34.6" y="31" width="36" height="138" fill="rgb(105,105,105)" style={{opacity:"0.45"}} />
+      <rect x="70.6" y="31" width="3.6" height="138" fill="rgb(105,105,105)" style={{opacity:"0.2"}} />      
+
+      <rect x="115.2" y="31" width="3.6" height="138" fill="rgb(105,105,105)" style={{opacity:"0.2"}} />
+      <rect x="118.8" y="31" width="36" height="138" fill="rgb(105,105,105)" style={{opacity:"0.45"}} />
+      <rect x="154.8" y="31" width="3.6" height="138" fill="rgb(105,105,105)" style={{opacity:"0.2"}} /> 
+
+      <rect x="175" y="31" width="3.6" height="138" fill="rgb(105,105,105)" style={{opacity:"0.2"}} />
+      <rect x="178.6" y="31" width="36" height="138" fill="rgb(105,105,105)" style={{opacity:"0.45"}} />
+      <rect x="214.6" y="31" width="3.6" height="138" fill="rgb(105,105,105)" style={{opacity:"0.2"}} />     
+
+      <rect x="243.4" y="31" width="3.6" height="138" fill="rgb(105,105,105)" style={{opacity:"0.2"}} />
+      <rect x="247" y="31" width="36" height="138" fill="rgb(105,105,105)" style={{opacity:"0.45"}} />
+      <rect x="283" y="31" width="3.6" height="138" fill="rgb(105,105,105)" style={{opacity:"0.2"}} />
+
+      <rect x="308.2" y="31" width="3.6" height="138" fill="rgb(105,105,105)" style={{opacity:"0.2"}} />
+      <rect x="311.8" y="31" width="36" height="138" fill="rgb(105,105,105)" style={{opacity:"0.45"}} />
+      <rect x="347.8" y="31" width="3.6" height="138" fill="rgb(105,105,105)" style={{opacity:"0.2"}} />
+
+      <rect x="380.2" y="31" width="3.6" height="138" fill="rgb(105,105,105)" style={{opacity:"0.2"}} />
+      <rect x="383.8" y="31" width="36" height="138" fill="rgb(105,105,105)" style={{opacity:"0.45"}} />
+      <rect x="419.8" y="31" width="3.6" height="138" fill="rgb(105,105,105)" style={{opacity:"0.2"}} />
+
     </svg>
   );
 };

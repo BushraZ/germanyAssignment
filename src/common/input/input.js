@@ -7,7 +7,7 @@ const Input = (props) => {
     const [value, setValue] = useState(defaultValue);
 
     const handleChange = (event) => {
-        const [name, value] = event.target;
+        const {name, value} = event.target;
 
         setValue(value);
         props.handleValue(name, value);
