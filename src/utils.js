@@ -22,7 +22,6 @@ export const findItemIndex = (id,list)=>{
 }
 
 export const disabledSelectedItem = (id,list) =>{
-  console.log(id,list)
   const targetIndex = findItemIndex(id,list);
   let tempList = [...list];
   tempList[targetIndex].disabled=!tempList[targetIndex].disabled;

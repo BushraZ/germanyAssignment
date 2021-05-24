@@ -22,8 +22,7 @@ const LineChart = ({
   const chartWidth = width - padding * 2;
   const chartHeight = height - padding * 2;
 
-  console.log("pppaddding",padding)
-
+ 
   const Axis = ({ points }) => (
     <polyline fill="none" stroke="#ccc" strokeWidth=".5" points={points} />
   );

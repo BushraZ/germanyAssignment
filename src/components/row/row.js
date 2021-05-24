@@ -4,7 +4,7 @@ import './row.scss';
 
 const Row = (props) => {
     const {columns} = props;   
-    console.log(columns)
+   
     return (
         <div className="row">
             {
